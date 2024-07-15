@@ -1,107 +1,281 @@
-*{
+.go-back-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(204, 55, 55);
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 
-section {
-    margin-bottom: 20px;
+.footer-1 {
+    background-color: #103682;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-
-.header1 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    background-color: #e25a28;
-    padding: 10px;
-    border-bottom: 2px solid #e11b10;
+.footer-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-.header1 a {
+
+.footer-1 nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-1 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #1ad49f;
-    font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-.header1 a:hover {
-    background-color: #a2cfd7;
 }
 
-
-.header2 {
-    display: flex;
-    justify-content: space-around;
-    background-color: #07fba2;
-    padding: 10px;
-    border-bottom: 2px solid #5e62b4;
-}
-.header2 a {
-    text-decoration: none;
-    color: #3190d4;
-    font-weight: bold;
-    padding: 8px 12px;
-    transition: color 0.3s ease;
-}
-.header2 a:hover {
-    color: #033137;
+.footer-2 {
+    background-color: #227f5e;
+    color: white;
+    padding: 20px 0;
 }
 
-
-.header3 {
-    display: flex;
-    justify-content: flex-end;
-    background-color: #23a80b;
-    padding: 10px;
-    border-bottom: 2px solid #b3cc99;
-}
-.header3 a {
-    text-decoration: none;
-    color: #336600;
-    font-weight: bold;
-    padding: 8px 12px;
-    transition: transform 0.3s ease;
-}
-.header3 a:hover {
-    transform: translateY(-3px);
-}
-
-
-.header4 {
+.footer-2 .container {
     display: flex;
     justify-content: space-between;
-    background-color: #794815;
-    padding: 10px;
-    border-bottom: 2px solid #d1d114;
-}
-.header4 a {
-    text-decoration: none;
-    color: #060119;
-    font-weight: bold;
-    padding: 8px 12px;
-    transition: border-color 0.3s ease;
-}
-.header4 a:hover {
-    border-color: #ff9933;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-
-.header5 {
+.footer-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
-    background-color: #f9f2f4;
-    padding: 10px;
-    border-bottom: 2px solid #e6b8bd;
 }
-.header5 a {
+
+.footer-2 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-2 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #e36d94;
-    font-weight: bold;
-    padding: 8px 12px;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
-.header5 a:hover {
-    background-color: #f2dede;
-    color: #fb0d09;
+
+.footer-3 {
+    background-color: #248996;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-4 {
+    background-color: #821fac;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-4 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-5 {
+    background-color: #d5158c;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-5 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-5 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-5 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-1 {
+    background-color: #c0bd18;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: backgroundChange 10s infinite;
+}
+
+@keyframes backgroundChange {
+    0% { background-color: #62648d; }
+    50% { background-color: #8a3636; }
+    100% { background-color: #333; }
+}
+
+.footer-animated-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-animated-1 nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-animated-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-2 {
+    background-color: #555;
+    color: white;
+    padding: 20px 0;
+    animation: textFadeIn 3s infinite;
+}
+
+@keyframes textFadeIn {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.footer-animated-2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-animated-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-animated-2 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-animated-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-3 {
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    animation: textGlow 3s infinite;
+}
+
+@keyframes textGlow {
+    0%, 100% { text-shadow: 0 0 5px white; }
+    50% { text-shadow: 0 0 20px white; }
+}
+
+.footer-animated-4 {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.footer-animated-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-animated-4 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-animated-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-5 {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.footer-animated-5 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-animated-5 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-animated-5 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-animated-5 nav ul li a {
+    color: white;
+    text-decoration: none;
 }

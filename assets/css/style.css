@@ -23,7 +23,7 @@ body {
     border-radius: 5px;
     }
     .btn:hover {
-    background-color: #9034c2;
+    background-color: #d66fc9;
     }
     
     & .kirby {
@@ -31,3 +31,4 @@ body {
     object-fit: cover;
     transition: all 0.5s ease;
     }
+    
