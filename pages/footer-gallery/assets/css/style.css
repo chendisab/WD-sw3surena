@@ -1,318 +1,329 @@
+
 body {
-  background-color: #0e1e3a;
-  color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.title-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  color: #fff;
-  position: relative;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.title-container h1 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-h1{
-  text-align: center;
-}
-
-h2{
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-.back-button {
-  background-color: #beb38a;
-  color: #3570e5;
-  padding: 10px 20px;
-  text-decoration: none;
+.home-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #ff85a2;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
 }
 
 .footer {
-  width: 100%;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.footer_section1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 90%;
-  margin: auto;
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.footer_section1 img {
-  width: 120px;
-  height: auto;
+.footer .social-icons {
+    margin: 10px 0;
 }
 
-.navigation_container {
-  display: grid;
-  width: 100%;
-  margin: auto;
-
-  /* grid-template-columns:  1fr 1fr 1fr 1fr; */
-  grid-template-columns: repeat(5, 1fr);
-
-  gap: 1rem;
-  padding: 48px 0;
-  background-color: white;
+.footer .social-icons img,
+.footer .logo {
+    width: 30px;
+    height: 30px;
 }
 
-.link__container {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.footer .newsletter {
+    margin: 20px 0;
 }
 
-.link__container h5 {
-  color: black;
-  font-weight: 500;
-  font-size: 14px;
-  margin-bottom: 5px;
-  letter-spacing: 0.8px;
+.footer .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
-.footer__link {
-  text-decoration: none;
-  color: gray;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
+.footer .newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #007BFF;
+    cursor: pointer;
 }
 
-.footer__link:hover {
-  color: rgb(53, 69, 162);
+.footer .contact-info {
+    margin: 20px 0;
 }
 
-.social__links_container {
-  display: flex;
-  gap: 0.5rem;
+.footer .content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-.social__links_container button {
-  background-color: black;
-  border: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.footer-1 {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
 }
 
-.social__links_container button i {
-  color: white;
-  font-size: 13px;
+.footer-2 {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
 }
 
-.footer__store_logos {
-  width: 100%;
+.footer-3 {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
 }
 
-.footer .disclamer {
-  width: 100%;
-  margin: auto;
-  padding: 20px 0;
-  font-size: 12px;
-  color: rgb(177, 172, 172);
-  border-top: 1px solid gray;
-  background-color: #484444;
+.footer-4 {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
 }
 
-.navigation_container1 {
-  display: grid;
-  width: 100%;
-  margin: auto;
-
-  /* grid-template-columns:  1fr 1fr 1fr 1fr; */
-  grid-template-columns: repeat(5, 1fr);
-
-  gap: 1rem;
-  padding: 48px 0;
-  background-color: #111;
+.footer p {
+    margin: 10px 0;
 }
 
-.link__container1 {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+.footer-2 .links {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
-.link__container1 h5 {
-  color: white;
-  font-weight: 500;
-  font-size: 14px;
-  margin-bottom: 5px;
-  letter-spacing: 0.8px;
-  text-align: center;
+.footer-2 .links .column {
+    margin: 0 20px;
 }
 
-  .disclamer1 {
-  width: 100%;
-  margin: auto;
-  padding: 20px 0;
-  font-size: 12px;
-  color: w;
-  border-top: 1px solid rgb(65, 62, 62);
-  background-color: #111;
-  text-align: center;
-}
-.footer__link1 {
-  text-decoration: none;
-  color: gray;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  text-align: center;
+.footer-2 .links h4 {
+    margin-bottom: 10px;
 }
 
-.footer__link1:hover {
-  color: rgb(7, 107, 248);
+.footer-3 .nav {
+    margin: 20px 0;
 }
 
-.footer__link2 {
-  text-decoration: none;
-  color: gray;
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
+.footer-3 .nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
 }
 
-
-
-.social__links_container1 {
-  display: flex;
-  gap: 0.5rem;
+.footer-4 .columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
 }
 
-.social__links_container1 button {
-  background-color: white;
-  border: none;
-  width: 25px;
-  height: 25px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.footer-4 .column {
+    margin: 10px;
 }
 
-.social__links_container1 button i {
-  color: #111;
-  font-size: 13px;
+.footer-4 .column h4 {
+    margin-bottom: 10px;
 }
 
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-  
-}
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.footer-4 .subscribe {
+    text-align: left;
 }
 
-.disclamer1a {
-  animation-name: fadeIn;
-  animation-duration: 2s; /* How long the animation takes */
-  animation-fill-mode: both; /* Ensures the final state is retained */
+.footer-4 .subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
-.disclamer1a {
-  animation-delay: 0s; /* Starts immediately */
+.footer-4 .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
 }
 
-.disclamera {
-  animation-name: fadeInUp;
-  animation-duration: 1.5s; /* Adjust duration as needed */
-  animation-timing-function: ease-out; /* This makes the animation start fast, then slow down */
-  animation-fill-mode: forwards; /* Keeps the element in the final state of the animation */
+/* Dynamic Footers Styles */
+
+/* Footer 6 */
+.footer {
+    transition: background-color 0.3s ease;
 }
 
-.footer__link4s {
-  text-decoration: none;
-  color: rgb(70, 68, 68);
-  font-size: 13px;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  text-align: center;
+.footer:hover {
+    background-color: #0056b3;
 }
 
-.footer__link:hover {
-  color: rgb(135, 129, 129);
+.footer .social-icons2 a {
+    transition: transform 0.3s ease;
 }
 
-.site-footer {
-  background-color: #ffffff;
-  text-align: center; 
-  padding: 20px 0; 
-  color: #333;
+.footer .social-icons2 img {
+    width: 30px;
+    height: 30px;
 }
 
-.footer-container {
-  margin: auto;
-  width: 80%; 
+.footer .social-icons2 a:hover {
+    transform: scale(1.2) rotate(10deg);
 }
 
-.footer-links a {
-  margin: 0 15px;
-  color: #333; 
-  text-decoration: none; 
+.footer .newsletter2 input {
+    transition: width 0.3s ease;
 }
 
-.footer-links a:hover {
-  text-decoration: underline; 
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.footer .newsletter2 input:focus {
+    width: 250px;
 }
 
-.animated-footer {
-  animation: fadeInUp 1s ease-out forwards;
+.footer .newsletter2 button {
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.animated-footer p, .animated-footer .footer-links a {
-  opacity: 0;
-  animation: fadeInUp 1s ease-out forwards;
+.footer .newsletter2 button:hover {
+    background-color: #007BFF;
+    color: white;
 }
 
-.animated-footer p {
-  animation-delay: 0.5s;
+/* Footer 7 */
+.footer-1 .content2 {
+    position: relative;
+    overflow: hidden;
 }
 
-.animated-footer .footer-links a {
-  animation-delay: 0.75s;
-}
-.footer-links a:hover {
-  text-decoration: none;
-  color: #f1c42d;
-  transform: translateY(-2px); 
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+.footer-1 .logo2 {
+    transition: transform 0.5s ease;
 }
 
+.footer-1:hover .logo2 {
+    transform: translateY(-10px);
+}
 
+.footer-1 .social-icons2 {
+    position: relative;
+}
 
+.footer-1 .social-icons2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-1 .social-icons2 a {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-1 .social-icons2 a:hover {
+    opacity: 0.7;
+    transform: translateY(-5px);
+}
+
+/* Footer 2 (Dynamic version) */
+.footer-2 .content {
+    transition: transform 0.3s ease;
+}
+
+.footer-2:hover .content {
+    transform: scale(1.02);
+}
+
+.footer-2 .links a {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-2 .links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    transition: width 0.3s ease;
+}
+
+.footer-2 .links a:hover::after {
+    width: 100%;
+}
+
+/* Footer 3 (Dynamic version) */
+.footer-3 .nav a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-3 .nav a:hover {
+    color: #007BFF;
+    transform: translateX(5px);
+}
+
+.footer-3 .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-3 .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-3 .social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.footer-3 .social-icons a:hover {
+    transform: rotate(360deg);
+}
+
+/* Footer 4 (Dynamic version) */
+.footer-4 .column a {
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.footer-4 .column a:hover {
+    color: #007BFF;
+    padding-left: 5px;
+}
+
+.footer-4 .subscribe input {
+    transition: box-shadow 0.3s ease;
+}
+
+.footer-4 .subscribe input:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.footer-4 .subscribe button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-4 .subscribe button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.footer-4 .social-icons img {
+    width: 30px;
+    height: 30px;
+    animation: pulse 2s infinite;
+}
+
+.footer-4 .social-icons a:hover {
+    animation-play-state: paused;
+}
