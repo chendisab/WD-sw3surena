@@ -1,0 +1,310 @@
+body {
+    background-color: #0e1e3a;
+    color: #fff;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.title-container h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.back-button {
+    background-color: #bebc8a;
+    color: #0b0b0b;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+header.design-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5vw;
+    background: #111;
+  
+    & .logo-img {
+        width: 300px;
+    }
+    & > nav.navigation {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+  
+      & > a.navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #beb38a;
+      }
+    }
+  }
+
+.design-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5vw;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.678);
+  
+    & > .navigation {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+  
+    & > .navigation-content {
+        color: aliceblue;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+    }
+
+    .img-logo2 {
+        width: 300px;
+    }
+    .img--logo2 {
+        width: 80px;
+        border-radius: 8x;
+    }
+}
+
+.design-three {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3vw;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .design-three .navigation {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .design-three .navigation .nav-button {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: rgb(4, 3, 3);
+  }
+  .bi {
+    font-size: 2rem;
+    color: rgb(4, 3, 3);
+  }
+  .img-logo3 {
+    width: 200px;
+  }
+
+  .design-four {
+    background-color: #3b3b3b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.534);
+    padding: 1.5rem 0;
+  
+    & .img-logo4 {
+      height: 120px;
+    }
+  
+    & .navigation {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    & .navigation-content {
+      color: black;
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+  }
+
+
+/*Animated*/
+
+  header.design-onea {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5vw;
+    background: #111;
+  
+    & .logo-img {
+        width: 300px;
+    }
+    & > nav.navigation {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+  
+      & > a.navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #beb38a;
+        transition: color 0.3s ease-in-out;
+      }
+    & > a.navigation-content:hover {
+        color: #fff;
+    }
+  }
+}
+
+.design-twoa {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5vw;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.678);
+  
+    & > .navigation {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+  
+    & > .navigation-content {
+        color: aliceblue;
+        font-weight: 800;
+        font-size: 1.2rem;
+        transition: color 0.3s ease-in-out;
+    }
+    & > a.navigation-content:hover {
+      color: #1100af;
+      transform: scale(1.1);
+  }
+    }
+
+    .img-logo2 {
+        width: 300px;
+    }
+    .img--logo2 {
+        width: 80px;
+        border-radius: 8x;
+    }
+}
+
+.design-threea {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3vw;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 1);
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .design-threea .navigation {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .design-threea .navigation .nav-button {
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: rgb(156, 156, 156);
+    transition: transform 0.3s ease-in-out;;
+  }
+  .design-threea .navigation .nav-button:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  .bia {
+    font-size: 2rem;
+    color: rgb(156, 156, 156);
+  }
+  .img-logo3a {
+    width: 200px;
+  }
+
+  .design-foura {
+    background-color: #3b3b3b;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.534);
+    padding: 1.5rem 0;
+  
+    & .img-logo4 {
+      height: 120px;
+    }
+  
+    & .navigation {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    & .navigation-content {
+      color: black;
+      font-weight: 700;
+      font-size: 1.2rem;
+      transition: transform 0.3s ease;;
+    }
+    & .navigation-content:hover {
+      transform: scale(1.1);
+      opacity: 0.7;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      color: #ffffff;
+    }
+  }
+
+  .site-header {
+    background-color: #333;
+    color: #fff; 
+    padding: 10px 0; 
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+  
+  .site-logo {
+    height: 150px; 
+    width: auto; 
+  }
+  
+  .site-navigation {
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  .nav-link {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 25px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; 
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+  }
+
+  .nav-links {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: 20px; 
+    font-size: 25px;
+  }

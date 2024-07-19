@@ -1,0 +1,318 @@
+body {
+  background-color: #0e1e3a;
+  color: #fff;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.title-container h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.back-button {
+  background-color: #beb38a;
+  color: #3570e5;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer_section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.footer_section1 img {
+  width: 120px;
+  height: auto;
+}
+
+.navigation_container {
+  display: grid;
+  width: 100%;
+  margin: auto;
+
+  /* grid-template-columns:  1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 1rem;
+  padding: 48px 0;
+  background-color: white;
+}
+
+.link__container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link__container h5 {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.footer__link:hover {
+  color: rgb(53, 69, 162);
+}
+
+.social__links_container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social__links_container button {
+  background-color: black;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__links_container button i {
+  color: white;
+  font-size: 13px;
+}
+
+.footer__store_logos {
+  width: 100%;
+}
+
+.footer .disclamer {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  font-size: 12px;
+  color: rgb(177, 172, 172);
+  border-top: 1px solid gray;
+  background-color: #484444;
+}
+
+.navigation_container1 {
+  display: grid;
+  width: 100%;
+  margin: auto;
+
+  /* grid-template-columns:  1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 1rem;
+  padding: 48px 0;
+  background-color: #111;
+}
+
+.link__container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.link__container1 h5 {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+  .disclamer1 {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  font-size: 12px;
+  color: w;
+  border-top: 1px solid rgb(65, 62, 62);
+  background-color: #111;
+  text-align: center;
+}
+.footer__link1 {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.footer__link1:hover {
+  color: rgb(7, 107, 248);
+}
+
+.footer__link2 {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+
+
+.social__links_container1 {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.social__links_container1 button {
+  background-color: white;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__links_container1 button i {
+  color: #111;
+  font-size: 13px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.disclamer1a {
+  animation-name: fadeIn;
+  animation-duration: 2s; /* How long the animation takes */
+  animation-fill-mode: both; /* Ensures the final state is retained */
+}
+
+.disclamer1a {
+  animation-delay: 0s; /* Starts immediately */
+}
+
+.disclamera {
+  animation-name: fadeInUp;
+  animation-duration: 1.5s; /* Adjust duration as needed */
+  animation-timing-function: ease-out; /* This makes the animation start fast, then slow down */
+  animation-fill-mode: forwards; /* Keeps the element in the final state of the animation */
+}
+
+.footer__link4s {
+  text-decoration: none;
+  color: rgb(70, 68, 68);
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.footer__link:hover {
+  color: rgb(135, 129, 129);
+}
+
+.site-footer {
+  background-color: #ffffff;
+  text-align: center; 
+  padding: 20px 0; 
+  color: #333;
+}
+
+.footer-container {
+  margin: auto;
+  width: 80%; 
+}
+
+.footer-links a {
+  margin: 0 15px;
+  color: #333; 
+  text-decoration: none; 
+}
+
+.footer-links a:hover {
+  text-decoration: underline; 
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-footer {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.animated-footer p, .animated-footer .footer-links a {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.animated-footer p {
+  animation-delay: 0.5s;
+}
+
+.animated-footer .footer-links a {
+  animation-delay: 0.75s;
+}
+.footer-links a:hover {
+  text-decoration: none;
+  color: #f1c42d;
+  transform: translateY(-2px); 
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+
+
