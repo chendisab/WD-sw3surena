@@ -121,5 +121,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-| Title | Purpose | Link |
+<!-- | Title | Purpose | Link | -->
 |-|-|-|
+| Seatwork 3 - Conde | Reference | https://github.com/kichiya999x/WD-Seatwork-3-Conde |
