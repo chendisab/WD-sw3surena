@@ -16,7 +16,7 @@ body {
 }
 
 .footer {
-    background-color: #007BFF;
+    background-color: #ff0059;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -54,7 +54,7 @@ body {
     border: none;
     border-radius: 5px;
     background-color: white;
-    color: #007BFF;
+    color: #00b3ff;
     cursor: pointer;
 }
 
@@ -163,7 +163,7 @@ body {
 }
 
 .footer:hover {
-    background-color: #0056b3;
+    background-color: #b30065;
 }
 
 .footer .social-icons2 a {
@@ -192,7 +192,7 @@ body {
 }
 
 .footer .newsletter2 button:hover {
-    background-color: #007BFF;
+    background-color: #7b00ff;
     color: white;
 }
 
@@ -249,7 +249,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #007BFF;
+    background-color: #ff0080;
     transition: width 0.3s ease;
 }
 
@@ -263,7 +263,7 @@ body {
 }
 
 .footer-3 .nav a:hover {
-    color: #007BFF;
+    color: #ff007b;
     transform: translateX(5px);
 }
 
@@ -291,7 +291,7 @@ body {
 }
 
 .footer-4 .column a:hover {
-    color: #007BFF;
+    color: #d35c89;
     padding-left: 5px;
 }
 
@@ -300,7 +300,7 @@ body {
 }
 
 .footer-4 .subscribe input:focus {
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 0 10px rgba(210, 30, 105, 0.5);
 }
 
 .footer-4 .subscribe button {
@@ -308,7 +308,7 @@ body {
 }
 
 .footer-4 .subscribe button:hover {
-    background-color: #0056b3;
+    background-color: #db2483;
     transform: translateY(-2px);
 }
 

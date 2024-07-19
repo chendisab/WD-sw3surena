@@ -7,7 +7,7 @@ body {
     padding: 10px;
     margin-top: 20px;
     text-align: center;
-    color: #ff85a2;
+    color: #871a33;
 }
 
 .home-button {
@@ -26,11 +26,11 @@ body {
     padding: 10px;
     margin-top: 20px;
     text-align: center;
-    color: #ff85a2;
+    color: #760721;
 }
 
 .home-button {
-    background-color: #ff85a2;
+    background-color: #500819;
     color: white;
     padding: 8px 16px;
     border-radius: 4px;
@@ -114,7 +114,7 @@ body {
     position: absolute;
     top: -5px;
     right: -10px;
-    background-color: red;
+    background-color: rgb(62, 4, 4);
     color: white;
     border-radius: 50%;
     padding: 2px 6px;
@@ -122,7 +122,7 @@ body {
 }
 
 .bootstrap {
-    background: #563d7c;
+    background: #4708a5;
     height: 64px;
     margin-top: 20px;
 }
@@ -135,7 +135,7 @@ body {
     border-radius: 4px;
 }
 .app-bar {
-    background-color: #FF69B4;
+    background-color: #d01773f0;
     color: white;
     padding: 10px;
     margin-bottom: 20px;
@@ -182,7 +182,7 @@ body {
 }
 
 .center-section .icon:hover {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid rgb(96, 96, 162);
     padding-bottom: 2px;
 }
 
@@ -194,7 +194,7 @@ body {
 
 .right-section .icon:last-child {
     border-radius: 50%;
-    border: 2px solid #1877F2;
+    border: 2px solid #274872;
     padding: 2px;
     margin-bottom: 20px;
 }
@@ -237,7 +237,7 @@ body {
 }
 
 .header1 {
-    background: #1abc9c;
+    background: #1da0869f;
     margin-top: 20px;
     padding: 10px;
 }
@@ -284,7 +284,7 @@ transition: background 0.3s, color 0.3s;
 }
 
 .design5 .sidebar ul li a:hover {
-background: #2980b9;
+background: #16dd94;
 color: #fff;
 }
 
@@ -344,7 +344,7 @@ transition: background 0.3s, color 0.3s;
 }
 
 .design5-an .buttons5-an li a:hover {
-background: #2980b9;
+background: #ca1438;
 color: #fff;
 }
 .static, .dynamic {
@@ -352,7 +352,7 @@ color: #fff;
     padding: 10px;
     margin-top: 20px;
     text-align: center;
-    color: #ff85a2;
+    color: #a62442;
 }
 
 .header {
@@ -386,7 +386,7 @@ color: #fff;
 }
 
 .header .nav a:hover {
-    color: orange;
+    color: rgb(222, 41, 134);
 }
 
 .header5 {
@@ -394,16 +394,16 @@ color: #fff;
 }
 
 .dynamic-header-1 {
-    background-color: #3498db;
+    background-color: #0c9770;
     transition: background-color 0.5s ease-in-out;
 }
 
 .dynamic-header-1:hover {
-    background-color: #2980b9;
+    background-color: #c81c8f;
 }
 
 .dynamic-header-2 {
-    background-color: #e74c3c;
+    background-color: #df1756;
     animation: slideIn 0.5s ease-in-out;
 }
 
@@ -466,7 +466,7 @@ color: #fff;
 }
 
 .dynamic-header-3 button {
-    background-color: #16a085;
+    background-color: #13b7d0;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -476,5 +476,5 @@ color: #fff;
 }
 
 .dynamic-header-3 button:hover {
-    background-color: #1abc9c;
+    background-color: #11e3e7;
 }
