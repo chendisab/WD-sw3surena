@@ -1,22 +1,49 @@
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.home-button-container {
+    display: flex;
+    margin-left: 30px;
+    justify-content: flex-start; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
 
 .home-button {
-    display: block;
-    margin: 0 auto;
+    display: inline-block; /* Change from block to inline-block */
     background-color: #ff85a2;
     color: white;
-    padding: 8px 16px;
+    padding: 10px 25px;
     border-radius: 4px;
+    border-color: #ff85a2;
     cursor: pointer;
+    margin: 0; /* Remove the left margin */
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.static{
+    background-color: #f0f2f5;
+    padding: 10px;
+    margin-top: 20px;
     text-align: center;
+    color: #871a33;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
 }
 
 .footer {
-    background-color: #ff0059;
+    background-color: #ff659b;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -38,24 +65,14 @@ body {
     height: 30px;
 }
 
-.footer .newsletter {
-    margin: 20px 0;
-}
-
-.footer .newsletter input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.footer .newsletter button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: white;
-    color: #1f82ad;
-    cursor: pointer;
+.social-icons button {
+    border: none; 
+    background-color: #1fc2f3;
+    color: white; 
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 .footer .contact-info {
@@ -68,32 +85,35 @@ body {
     padding: 20px;
 }
 
+.footer-1 .content1 img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+}
+
 .footer-1 {
-    background-color: white;
-    color: black;
+    background-color: rgb(146, 220, 255);
+    color: rgb(88, 88, 88);
     margin-top: 30px;
+}
+
+.content1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
 .footer-2 {
-    background-color: white;
+    background-color: rgb(255, 184, 249);
     color: black;
     margin-top: 30px;
 }
 
-.footer-3 {
-    background-color: black;
-    color: white;
-    margin-top: 30px;
-}
-
-.footer-4 {
-    background-color: black;
-    color: white;
-    margin-top: 30px;
-}
-
-.footer p {
-    margin: 10px 0;
+.content2 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
 .footer-2 .links {
@@ -102,12 +122,26 @@ body {
     margin: 20px 0;
 }
 
-.footer-2 .links .column {
+.footer-2 .links .column{
     margin: 0 20px;
 }
 
 .footer-2 .links h4 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-2 a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+.content hr {
+    background-color: #ee75da;
+    border: none;
+    height: 1px; 
+    margin: 0 auto; 
 }
 
 .footer-3 .nav {
@@ -118,6 +152,18 @@ body {
     margin: 0 10px;
     color: white;
     text-decoration: none;
+}
+
+.footer-3 {
+    background-color: rgb(116, 255, 139);
+    color: white;
+    margin-top: 30px;
+}
+
+.footer-4 {
+    background-color: rgb(246, 255, 74);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
 }
 
 .footer-4 .columns {
@@ -150,180 +196,497 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: orange;
+    background-color: rgb(71, 62, 255);
     color: white;
     cursor: pointer;
 }
 
-/* Dynamic Footers Styles */
 
-/* Footer 6 */
-.footer {
-    transition: background-color 0.3s ease;
+.footer-4 a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.footer:hover {
-    background-color: #b30065;
-}
 
-.footer .social-icons2 a {
-    transition: transform 0.3s ease;
-}
 
-.footer .social-icons2 img {
-    width: 30px;
-    height: 30px;
-}
+/*Animated Design*/
 
-.footer .social-icons2 a:hover {
-    transform: scale(1.2) rotate(10deg);
-}
-
-.footer .newsletter2 input {
-    transition: width 0.3s ease;
-}
-
-.footer .newsletter2 input:focus {
-    width: 250px;
-}
-
-.footer .newsletter2 button {
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.footer .newsletter2 button:hover {
-    background-color: #7b00ff;
+.footera {
+    background-color: #ff659b;
     color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-/* Footer 7 */
-.footer-1 .content2 {
-    position: relative;
-    overflow: hidden;
+.footera a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.footer-1 .logo2 {
-    transition: transform 0.5s ease;
+.footera .social-iconsa {
+    margin: 10px 0;
 }
 
-.footer-1:hover .logo2 {
-    transform: translateY(-10px);
-}
-
-.footer-1 .social-icons2 {
-    position: relative;
-}
-
-.footer-1 .social-icons2 img {
+.footera .social-iconsa img,
+.footera .logoa {
     width: 30px;
     height: 30px;
 }
 
-.footer-1 .social-icons2 a {
-    transition: opacity 0.3s ease, transform 0.3s ease;
+.footera .contact-infoa {
+    margin: 20px 0;
 }
 
-.footer-1 .social-icons2 a:hover {
-    opacity: 0.7;
-    transform: translateY(-5px);
+.footera .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-/* Footer 2 (Dynamic version) */
-.footer-2 .content {
-    transition: transform 0.3s ease;
+.social-iconsa button {
+    border: none; 
+    background-color: #1fc2f3;
+    color: white; 
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+.footer-1a button:hover {
+    transform: scale(1.2); /* Scale up the button to 110% of its original size */
+    transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
 }
 
-.footer-2:hover .content {
-    transform: scale(1.02);
+.footer-1a .content1a img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
 }
 
-.footer-2 .links a {
-    position: relative;
-    overflow: hidden;
+.footer-1a {
+    background-color: rgb(146, 220, 255);
+    color: rgb(88, 88, 88);
+    margin-top: 30px;
 }
 
-.footer-2 .links a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #ff0080;
-    transition: width 0.3s ease;
+.content1a {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-.footer-2 .links a:hover::after {
-    width: 100%;
+.footer-2a {
+    background-color: rgb(255, 184, 249);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
 }
 
-/* Footer 3 (Dynamic version) */
-.footer-3 .nav a {
-    transition: color 0.3s ease, transform 0.3s ease;
+.content2a {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-.footer-3 .nav a:hover {
-    color: #ff007b;
-    transform: translateX(5px);
-}
-
-.footer-3 .social-icons {
+.footer-2a .linksa {
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
-.footer-3 .social-icons img {
+.footer-2a .linksa .columna{
+    margin: 0 20px;
+}
+
+.footer-2a .linksa h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-2a a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+.footer-2a a {
+    display: inline-block; /* Allows the application of padding and smooth transition */
+    padding: 5px 10px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+    color: #FFFFFF; /* Initial text color */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.footer-2a a:hover {
+    background-color: #9f00b1; /* Color fill on hover */
+}
+
+.contenta hr {
+    background-color: #ee75da;
+    border: none;
+    height: 1px; 
+    margin: 0 auto; 
+}
+
+.footer-3a .nava {
+    margin: 20px 0;
+}
+
+.footer-3a .nava a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-3a {
+    background-color: rgb(116, 255, 139);
+    color: white;
+    margin-top: 30px;
+}
+
+/* Define Keyframes for Underline Animation */
+@keyframes underlineSlide {
+    from {
+        background-size: 0% 2px;
+    }
+    to {
+        background-size: 100% 2px;
+    }
+}
+
+/* Apply Animation to Anchors in .footer-3a */
+.footer-3a .nava a {
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px;
+    transition: background-size 0.5s ease;
+}
+
+.footer-3a .nava a:hover {
+    animation: underlineSlide 0.5s forwards;
+}
+
+
+/* Define Keyframes for Color Animation */
+@keyframes colorWave {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: green; }
+    75% { color: blue; }
+    100% { color: red; }
+}
+
+/* Apply Animation to Paragraphs in .footer-2a */
+.footer-3a p {
+    animation: colorWave 5s infinite linear;
+}
+
+@keyframes changeColor {
+    0% { background-color: #ff00bb; }
+    25% { background-color: #9900ff; }
+    50% { background-color: #ff0101; }
+    75% { background-color: #ff0077; }
+    100% { background-color: #ff00bb; }
+}
+.footer-4a {
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+}
+
+.footer-4a .columnsa {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.footer-4a .columna {
+    margin: 10px;
+}
+
+.footer-4a .columna h4 {
+    margin-bottom: 10px;
+}
+
+.footer-4a .subscribea {
+    text-align: left;
+}
+
+.footer-4a .subscribea input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-4a .subscribea .send {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(71, 62, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.footer-4a .subscribea .send:hover {
+    background-color: rgb(89, 79, 255); /* Lighter shade of the original color for contrast */
+    color: #ffffff; /* Keeps text color white for readability */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scaling */
+}
+
+
+.footer-4a a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-4a .columna a:hover {
+    transform: scale(1.3); /* Increase size by 10% on hover */
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+
+/*footera for animated designs*/
+/* Hover Effect for .footera */
+.footera:hover {
+    background-color: #ff0000; /* New color on hover */
+}
+
+/* Hover Effect for Child Links */
+.footera a:hover {
+    color: #000000; /* Change text color on hover */
+}
+
+/* Hover Effect for Social Icons */
+.footera .social-iconsa:hover {
+    color: #000; /* Change icon color on hover */
+}
+
+.footera {
+    background-color: #ff659b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera .social-iconsa img,
+.footera .logoa {
     width: 30px;
     height: 30px;
 }
 
-.footer-3 .social-icons a {
-    transition: transform 0.3s ease;
+.footera .contact-infoa {
+    margin: 20px 0;
 }
 
-.footer-3 .social-icons a:hover {
-    transform: rotate(360deg);
+.footera .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
-/* Footer 4 (Dynamic version) */
-.footer-4 .column a {
-    transition: color 0.3s ease, padding-left 0.3s ease;
+
+/*footer1 for animated designs*/
+
+/* Define Keyframes for Bounce Animation */
+.footera1:hover {
+    background-color: #6070ff; /* New color on hover */
 }
 
-.footer-4 .column a:hover {
-    color: #d35c89;
-    padding-left: 5px;
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
-.footer-4 .subscribe input {
-    transition: box-shadow 0.3s ease;
+/* Apply Animation to .footera1 */
+.footera1 {
+    animation: bounceIn 1s ease-out;
 }
 
-.footer-4 .subscribe input:focus {
-    box-shadow: 0 0 10px rgba(210, 30, 105, 0.5);
+.footera1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.footer-4 .subscribe button {
-    transition: background-color 0.3s ease, transform 0.3s ease;
+.footera1 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.footer-4 .subscribe button:hover {
-    background-color: #db2483;
-    transform: translateY(-2px);
+.footera1 .social-iconsa {
+    margin: 10px 0;
 }
 
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-}
-
-.footer-4 .social-icons img {
+.footera1 .social-iconsa img,
+.footera1 .logoa {
     width: 30px;
     height: 30px;
-    animation: pulse 2s infinite;
 }
 
-.footer-4 .social-icons a:hover {
-    animation-play-state: paused;
+.footera1 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera1 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*footer2 for animated designs*/
+.footera2:hover {
+    background-color: #ff00d0; /* New color on hover */
+}
+
+.footera2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera2 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera2 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera2 .social-iconsa img,
+.footera2 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera2 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera2 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*footer3 for animated designs*/
+.footera3:hover {
+    background-color: #73ff37; /* New color on hover */
+}
+.footera3 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera3 a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footera3 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera3 .social-iconsa img,
+.footera3 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera3 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera3 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/*footer4 for animated designs*/
+
+.footera4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footera4 .social-iconsa {
+    margin: 10px 0;
+}
+
+.footera4 .social-iconsa img,
+.footera4 .logoa {
+    width: 30px;
+    height: 30px;
+}
+
+.footera4 .contact-infoa {
+    margin: 20px 0;
+}
+
+.footera4 .contenta {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Define Keyframes for Slide-Up and Fade-In Animation */
+@keyframes slideUpFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply Animation to .footera4 Elements */
+.footera4 {
+    animation: slideUpFadeIn 1s ease-out forwards;
+    animation: changeColor 10s infinite linear;
+}
+
+.footera4 .social-iconsa,
+.footera4 .logoa,
+.footera4 .contact-infoa,
+.footera4 .contenta {
+    animation: slideUpFadeIn 1.5s ease-out forwards;
 }
